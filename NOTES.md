@@ -88,4 +88,12 @@ RULES:
 - Make test pass ✅ 
 - Commit ✅ 
 
-- 
+- Refactor test: 'Should return the player1 name "X" when is sent by parameter'✅
+- Make test fail ✅ 
+- Create prod code ✅ 
+- Make test pass ✅ 
+- Create test: 'Should return the player2 name "O" when is sent by parameter' ✅ 
+- Make test fail ✅ 
+- Refact prod code to be updated for the tests are comming ✅ 
+- Make test pass ✅ 
+- Commit ✅ 

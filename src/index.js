@@ -1,8 +1,9 @@
-class Player1 {
+class Player {
   constructor(name) {
     this.name = name;
   }
 }
+
 module.exports = {
-  Player1,
+  Player,
 };
