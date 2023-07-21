@@ -4,6 +4,14 @@ class Player {
   }
 }
 
+function boardDimension(dimension) {
+  if (dimension === 3) {
+    return 3;
+  }
+  return true;
+}
+
 module.exports = {
   Player,
+  boardDimension,
 };
