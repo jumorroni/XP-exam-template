@@ -1,7 +1,8 @@
-const { dummy } = require('../src/index');
+const { Player1 } = require('../src/index');
 
-describe('Validate the dummy', () => {
-  it('Should return "This is a dummy"', () => {
-    expect(dummy()).toBe('This is a dummy');
+describe('Players', () => {
+  test('Should return the player1 name "X" when is sent by parameter', () => {
+    const player1 = new Player1('X');
+    expect(player1.name).toBe('X');
   });
 });

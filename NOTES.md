@@ -82,3 +82,10 @@ RULES:
 - Understand the problem ✅ 
 - Commit ✅ 
 
+- Create test: 'Should return the player1 name "X" when is sent by parameter' ✅ 
+- Make test fail ✅ 
+- Create prod code ✅ 
+- Make test pass ✅ 
+- Commit ✅ 
+
+- 

@@ -1,4 +1,8 @@
-const dummy = () => 'This is a dummy';
+class Player1 {
+  constructor(name) {
+    this.name = name;
+  }
+}
 module.exports = {
-  dummy,
+  Player1,
 };
