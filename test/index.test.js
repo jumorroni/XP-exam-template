@@ -1,4 +1,4 @@
-const { Player, boardDimension } = require('../src/index');
+const { Player, boardDimension, boardPositions } = require('../src/index');
 
 describe('Players', () => {
   test('Should return the player1 name "X" when is sent by parameter', () => {
@@ -19,5 +19,11 @@ describe('Board dimension', () => {
 
   test('Should return board dimension 3 when is sent by parameter', () => {
     expect(boardDimension(3)).toBe(3);
+  });
+});
+
+describe('Board positions', () => {
+  test('Should return "true" when there is a board position', () => {
+    expect(boardPositions()).toBe(true);
   });
 });
